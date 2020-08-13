@@ -70,13 +70,11 @@
     <plugins>
     <plugin>
     <!-- https://mvnrepository.com/artifact/net.masterthought/cucumber-reporting -->
-    <dependencies>
-    <dependency>
+   
     <groupId>net.masterthought</groupId>
     <artifactId>cucumber-reporting</artifactId>
     <version>5.0.0</version>
-    </dependency>
-    </dependencies>
+    
      <executions>
            <execution>
             <id>execution</id>
@@ -101,8 +99,6 @@
             </configuration>
            </execution>
            </executions>
-    
-    
     </plugin>
     </plugins>
   
